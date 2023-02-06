@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    font-family: 'Orbitron';
+}
+
+:root{
+    --textcolor:#fff;
+    --secondarColor:#038e9a;
+
+
+}
+
+.wel-section{
+    width: 100%;
+    height: 100vh;
+    margin: 4rem 0 0 0;
+    color: var(--textcolor);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    
+}
+
+.wel-text .heading .wel-head{
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+}
+
+.wel-section span{
+    margin-left: 13px;
+    color: var(--secondarColor);
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+}
+
+.wel-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 55vh;
+}
+
+ .wel-section .wel-intro {
+    width: 50rem;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.shadow{
+    position: absolute;
+    margin-top: 0rem;
+    left: 1rem;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+    z-index: -5;
+    opacity: .7;
+}
+.shadow1{
+    position: absolute;
+    margin-top: -30rem;
+    right: 1rem;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+    z-index: -5;
+    opacity: .5;
+}
